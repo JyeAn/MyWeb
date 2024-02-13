@@ -56,14 +56,9 @@ export default {
 
 <style scoped lang='scss'>
   .banner{
-    // padding-top: 7rem;
     width: 100%;
-    // min-height: 500px;
     height: 60vh;
-    // text-align: left;
-    // background-color: burlywood;
     background-color: #fff;
-    // display: flex;
     margin: 0;
     padding: 0;
   }

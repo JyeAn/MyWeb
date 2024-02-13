@@ -28,12 +28,23 @@
                   <p>jyean8536@gmail.com</p>
                 </div>
             </div>
+            <p class="link-right">段落1</p>
             <!--footer畫面右區-->
-            <!-- <div class="col-sm-12 col-md-4 m-3">
-                <img src="/img/layout/footer.jpg" alt="" width="300">
-            </div> -->
+            <div class="col-sm-12 col-md-5 m-3">
+              <div class="endtext">
+                  <p>Github</p>
+                  <div class="code">
+                      <a href="https://github.com/JyeAn/Paper_code">碩論</a>
+                      <br />
+                      <a href="">國科會計畫</a>
+                      <br />
+                      <a href="https://github.com/JyeAn/chgh">產學合作</a>
+                </div>
+            </div>
+          </div>
         </div>
         <p class="end">©2019 by JyeAn</p>
+
     </div>
 </template>
 
@@ -76,21 +87,21 @@ export default {
   }
   .fb{
     position: absolute;
-    top: 1500px;
+    top: 1540px;
     left: 300px;
     width: 70px;
     height: 70px;
   }
   .phone{
     position: absolute;
-    top: 1575px;
+    top: 1615px;
     left: 315px;
     width: 40px;
     height: 40px;
   }
   .mail{
     position: absolute;
-    top: 1630px;
+    top: 1670px;
     left: 315px;
     width: 40px;
     height: 40px;
@@ -98,21 +109,21 @@ export default {
 
   .fbtext{
     position: absolute;
-    top: 1523px;
+    top: 1563px;
     left: 365px;
     color: #fff;
     font-size: 16px;
   }
   .phonetext{
     position: absolute;
-    top: 1585px;
+    top: 1625px;
     left: 365px;
     color: #fff;
     font-size: 14px;
   }
   .mailtext{
     position: absolute;
-    top: 1640px;
+    top: 1680px;
     left: 365px;
     color: #fff;
     font-size: 14px;
@@ -122,5 +133,29 @@ export default {
     top: 1740px;
     left: 900px;
     color: #000;
+  }
+  .link-right {
+            width: 50px;
+            height: 20%;
+            position: absolute;
+            border-right: solid #ACC0D8 1px;
+  }
+  .endtext{
+    color: #fff;
+    font-size: 16px;
+    font-family: Microsoft JhengHei;
+    // text-align: left;
+    padding: 0 100px;
+  }
+
+  .code{
+    white-space: normal;
+    word-wrap: break-word;
+    float: left;
+  }
+  .code a{
+    white-space: normal;
+    word-wrap: break-word;
+    float: left;
   }
 </style>
